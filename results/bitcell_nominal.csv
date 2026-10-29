@@ -1,0 +1,2 @@
+w_pd,w_ax,w_pu,l,vdd,temp_c,corner,beta,hold_snm_mv,read_snm_mv,write_trip_mv,read_current_ua,read_bump_mv,leak_total_pa,leak_vdd_pa,leak_bl_pa,read_100mv_ps,write_time_ps
+4e-07,2.4e-07,2.4e-07,1.8e-07,1.8,27,tt,1.66667,635.339,320.767,747.35,93.1454,222.575,0.325339,0.231665,0.0936738,116.436,28.9883

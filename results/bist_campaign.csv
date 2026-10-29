@@ -1,0 +1,8 @@
+fault,n,detected_nbg1,detected_nbg4
+saf,100,100,100
+tf,100,100,100
+cfin_interword,100,100,100
+cfid_interword,100,100,100
+cfin_intraword,100,100,100
+cfid_intraword,100,45,100
+adf,100,100,100

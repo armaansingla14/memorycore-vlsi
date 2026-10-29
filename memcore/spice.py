@@ -97,8 +97,11 @@ def ngspice_available() -> bool:
     return _have_native() or _have_docker()
 
 
+# gmin is lowered from the 1e-12 S default: the default shunt conductance
+# across every junction adds ~9 pA per cell at 1.8 V, which would swamp the
+# sub-threshold leakage being measured.
 PREAMBLE = """.include cmos180_approx.lib
-.options savecurrents=0
+.options savecurrents=0 gmin=1e-18
 """
 
 CONTROL_SETTINGS = "set wr_vecnames\nset wr_singlescale\noption numdgt=10\n"
