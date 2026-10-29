@@ -1,0 +1,15 @@
+{
+  "DESIGN_NAME": "mbist_march",
+  "VERILOG_FILES": ["dir::../../rtl/mbist_march.v"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10.0,
+  "PNR_SDC_FILE": "dir::../constraints/mbist_march.sdc",
+  "SIGNOFF_SDC_FILE": "dir::../constraints/mbist_march.sdc",
+  "FP_CORE_UTIL": 45,
+  "PL_TARGET_DENSITY_PCT": 60,
+  "FP_PDN_MULTILAYER": false,
+  "RUN_KLAYOUT_XOR": false,
+  "RUN_MAGIC_DRC": true,
+  "RUN_LVS": true,
+  "_comment": "OpenLane 2 style configuration; not executed in this repository"
+}
