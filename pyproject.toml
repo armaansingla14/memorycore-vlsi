@@ -1,0 +1,9 @@
+[project]
+name = "memorycore-vlsi"
+version = "0.1.0"
+description = "6T SRAM bitcell characterization, March C- memory BIST, scan insertion and stuck-at ATPG"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

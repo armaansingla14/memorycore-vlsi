@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+sim_work/
+*.vcd
+*.vvp
+*.raw
+*.log
+.vscode/
